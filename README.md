@@ -39,8 +39,3 @@ npm run dev  # opens on http://localhost:3000
 ```
 - Configure a different backend URL via `NEXT_PUBLIC_API_BASE` (defaults to `http://localhost:8000`).
 - UI supports entering multiple pointers (one per line), PDF upload, and expandable rationales per snippet.
-
-## Notes
-- Uploads are persisted locally in `backend/uploads/`; clean up manually as needed.
-- PDFs are assumed to be text-based (no OCR step included).
-- Sample PDF can be regenerated with `python backend/sample_data/generate_sample_pdf.py`.
